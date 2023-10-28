@@ -1,2 +1,1 @@
-# Noting_Niche
- Note Taking Application
+# Note Taker Starter Code
