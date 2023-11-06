@@ -1,12 +1,16 @@
-//copied in from activity 11.1 - check routes and paths!
+//importing express library/setting up port
 const express = require('express');
 const path = require('path');
-const fs = require('fs');
+const API = require('./controller/api-routes');
 
+//setting up app and port
 const app = express();
-const PORT = 3001;
+const PORT = 3005;
 
 app.use(express.static('public'));
+app.use(express.json())
+app.use(express.urlencoded({extended:true})); // parsing urlencoded data
+app.use('/api', API);  // api path 
 
 //renders index.html w/ get request
 app.get('/', (req, res) => res.render('public/index.html'));
@@ -20,3 +24,4 @@ app.get('/notes', (req, res) =>
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
+

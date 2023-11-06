@@ -1,6 +1,27 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text",
+        "id": "0523"
+    },
+    {
+        "title": "Requiring in Express",
+        "text": "const express = require('express')\n const app = express() \n app.use________",
+        "id": "0524"
+    },
+    {
+        "title": "Using Middleware to make 'public' folder public",
+        "text": "middleware\napp.use(express.static('public')); // point to files in oublic folder\n\n\napp.use(express.json()); // parsing JSON data\n ",
+        "id": "0525"
+    },
+    {
+        "title": "sdfsf",
+        "text": "CELIA IS AWESOME",
+        "id": "0dbd"
+    },
+    {
+        "title": "NAomi",
+        "text": "wonderful\n",
+        "id": "fa6d"
     }
 ]
