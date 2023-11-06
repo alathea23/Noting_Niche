@@ -28,6 +28,9 @@ N/A
 ## Contributors:
 
 Jenny Wannier
+Mod 11, Activity 24 sourced code
+start code found on git, [Xandromus] (https://github.com/coding-boot-camp/miniature-eureka.git)
+
 
 ## Live Site:
 
